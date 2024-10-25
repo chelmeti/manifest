@@ -1,4 +1,4 @@
----
+ti---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shaikmustafa/ganesh:v2
+        image: chelmeti/project3:rcimage
         ports:
         - containerPort: 3000   # Use port 3000
 
